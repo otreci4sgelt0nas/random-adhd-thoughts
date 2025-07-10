@@ -49,3 +49,5 @@ This refactor addresses memory overflow (OOM) issues and build/runtime errors ca
 - If you're using `useSearchParams`, `useState`, etc., **it must be in a `'use client'` file**.
 - Use `<Suspense>` when rendering client components from server files.
 - Watch out for **circular imports** — even one can silently cause massive memory issues or infinite re-renders.
+
+![Alt text](../images/next.js_Overflow.png)
